@@ -6,6 +6,7 @@ title: Meetings
 {% for meeting in site.data.meetings %}
   <div class="meeting">
     <h2>{{ meeting.topic }}</h2>
+    <p>{{ meeting.topicSummary }}</p>
     <dl>
       <dt>Speaker</dt>
         <dd>{{ meeting.speaker }}</dd>
