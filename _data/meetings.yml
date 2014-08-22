@@ -2,5 +2,6 @@
   time: '6pm'
   speaker: Brad Young
   topic: Building Applications with Redis
+  topicSummary: 'Redis is an open source, advanced key-value cache and store.   I will cover the basics on using Redis for caching,  NoSQL database and pub/sub messaging.'
   location: 'Business Building, Room 551'
   map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
