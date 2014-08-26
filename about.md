@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-The Western Kentucky Developers User Group is a group for getting together to share and discuss ideas around software development. Our hope is that we can foster a community of developers across a wide range of disciplines. Western Kentucky has a good number of smart and experienced developers, and it will be fun to get them all in the same room every once in a while to help each other and even help newcomers to the industry. We welcome people of all skill levels and interest, so please come even if you are new to the field!
+The Western Kentucky Developers User Group is a group for people in the Western Kentucky area to get together and share and discuss ideas around software development. Our hope is that we can foster a community of developers across a wide range of disciplines. Western Kentucky has a large number of smart and experienced developers, and it will be fun to get them all in the same room every once in a while to help each other and even help newcomers to the industry. We welcome people of all skill levels and interest, so please come even if you are new to the field!
 
 ## Meetings
 
