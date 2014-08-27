@@ -4,18 +4,16 @@ title: Meetings
 ---
 
 {% for meeting in site.data.meetings %}
-  <div class="meeting">
+  <div class="meeting" id="meeting-id-{{ meeting.id }}">
     <h2>{{ meeting.topic }}</h2>
+    <p><em>{{ meeting.date | date: '%B %d, %Y' }} at {{ meeting.time }}</em></p>
     <p>{{ meeting.topicSummary }}</p>
-    <dl>
-      <dt>Speaker</dt>
-        <dd>{{ meeting.speaker }}</dd>
-      <dt>When</dt>
-        <dd>{{ meeting.date | date: '%B %d, %Y' }} at {{ meeting.time }}</dd>
-      <dt>Where</dt>
-        <dd>
-          <a href="{{ meeting.map_url }}">{{ meeting.location }}</a>
-        </dd>
-    </dl>
+    <p><strong>Speaker</strong>: {{ meeting.speaker }}</p>
+    <h3>Locations</h3>
+    <ul>
+      {% for location in meeting.locations %}
+        <li><a href="{{ location.map_url }}">{{ location.name }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 {% endfor %}
