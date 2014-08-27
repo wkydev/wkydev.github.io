@@ -12,7 +12,6 @@ title: Meetings
     <h3>Locations</h3>
     <ul>
       {% for location in meeting.locations %}<li><a href="{{ location.map_url }}">{{ location.name }}</a></li>
-      {% endfor %}
-    </ul>
+      {% endfor %}</ul>
   </div>
 {% endfor %}
