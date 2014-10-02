@@ -4,13 +4,33 @@
  <title>WKY Developers</title>
  <link href="http://wkydev.com/atom.xml" rel="self"/>
  <link href="http://wkydev.com/"/>
- <updated>2014-08-20T21:38:02-05:00</updated>
+ <updated>2014-10-02T17:10:22-05:00</updated>
  <id>http://wkydev.com</id>
  <author>
    <name>WKYDev</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>October Meeting</title>
+   <link href="http://wkydev.com/2014/10/01/october-meeting/"/>
+   <updated>2014-10-01T00:00:00-05:00</updated>
+   <id>http://wkydev.com/2014/10/01/october-meeting</id>
+   <content type="html">&lt;p&gt;This is a friendly reminder that we&amp;#39;ll be meeting on October 13th at 6pm. Thanks to Dr. Raj, we will now have access to the IPTV rooms in Murray and Paducah, which will allow us to use the nice video equipment for providing audio and video to both sites. Because of this, the meeting rooms have changed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In &lt;strong&gt;Murray&lt;/strong&gt;, we&amp;#39;ll meet in the Business Building in room 102&lt;/li&gt;
+&lt;li&gt;In &lt;strong&gt;Paducah&lt;/strong&gt;, we&amp;#39;ll meeting at the Paducah campus again in room 139&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.csiweb.com/&quot;&gt;CSI&lt;/a&gt; will be providing pizza and drinks for both the Murray and Paducah locations for the October meeting. A big thank you to them for their support!&lt;/p&gt;
+
+&lt;p&gt;Lastly, we now have a mailing list together and will be sending out an email shortly. If you know of anyone that would like to be on the list, please point them toward our &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Please visit the &lt;a href=&quot;/meetings/&quot;&gt;meetings page&lt;/a&gt; for more information about the meeting.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First Event</title>
@@ -20,6 +40,8 @@
    <content type="html">&lt;p&gt;We are happy to announce that we are going to be having our first meeting for the Western Kentucky Developers User Group on September 8, 2014 at 6pm in room 551 in the Business Building on Murray State&amp;#39;s campus. You can find out more about this meeting on the &lt;a href=&quot;/meetings/&quot;&gt;meetings page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To find out more about this group, please read the &lt;a href=&quot;/about/&quot;&gt;about page&lt;/a&gt;. To stay in touch, follow us on Twitter &lt;a href=&quot;https://twitter.com/wkydev&quot;&gt;@wkydev&lt;/a&gt; or subscribe to the &lt;a href=&quot;/atom.xml&quot;&gt;Atom feed&lt;/a&gt;. We will also have a news letter you can subscribe to soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: We will also have a room available at Murray State&amp;#39;s Paducah Campus, Room 215.&lt;/p&gt;
 </content>
  </entry>
  
