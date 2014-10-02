@@ -21,7 +21,7 @@
     - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
       map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
 - id: 3
-  date: 2014-11-10
+  date: 2014-11-10 18:00:00
   time: '6pm'
   speaker: Stephen Mizell
   topic: 'REST, Hypermedia, and HTTP'
@@ -32,11 +32,44 @@
     - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
       map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
 - id: 4
-  date: 2014-12-8
+  date: 2014-12-8 18:00:00
   time: '6pm'
   speaker: Stephen Mizell
   topic: 'Fun with Functional Programming'
   topicSummary: "We will take a look at functional programming and how it can be helpful in common languages like JavaScript."
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 5
+  date: 2015-02-09 18:00:00
+  time: '6pm'
+  speaker: CSI
+  topic: 'TBA'
+  topicSummary: "TBA"
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 6
+  date: 2015-03-09 18:00:00
+  time: '6pm'
+  speaker: CSI
+  topic: 'TBA'
+  topicSummary: "TBA"
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 7
+  date: 2015-04-13 18:00:00
+  time: '6pm'
+  speaker: TBA
+  topic: 'TBA'
+  topicSummary: "TBA"
   locations:
     - name: 'Murray State University, Business Building, IPTV Room 102'
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
