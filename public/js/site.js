@@ -12,10 +12,10 @@ var Meetings = function() {
   }
 
   api.archivePast = function() {
-    var now = $.now();
+    var diffDate = $.now() - 2*60*60*1000;
     $('.meeting').each(function(index, meeting) {
       var date = (new Date($(meeting).data('meeting-date'))).getTime();
-      if (date < now) $(meeting).appendTo($('.archived'));
+      if (date < diffDate) $(meeting).prependTo($('.archived'));
     });
   }
 
