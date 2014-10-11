@@ -1,6 +1,5 @@
 ---
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
@@ -19,6 +18,7 @@
    <title>{{ meeting.topic }}</title>
    <link href="{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}"/>
    <updated>{{ meeting.date | date_to_xmlschema }}</updated>
+   <published>{{ meeting.date | date_to_xmlschema }}</published>
    <id>{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}</id>
    <content type="html">
     <p>{{ meeting.topicSummary }}</p>
