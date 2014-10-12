@@ -1,29 +1,36 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }} Calendar</title>
- <link href="{{ site.url }}/calendar.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for meeting in site.data.meetings %}
- <entry>
-   <title>{{ meeting.topic }}</title>
-   <link href="{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}"/>
-   <updated>{{ meeting.date | date_to_xmlschema }}</updated>
-   <published>{{ meeting.date | date_to_xmlschema }}</published>
-   <id>{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}</id>
-   <content type="html">
-    <p>{{ meeting.topicSummary }}</p>
-    <p>See <a href="{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}">meetings page for location info</a></p>
-  </content>
- </entry>
- {% endfor %}
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+    xmlns:gd="http://schemas.google.com/g/2005"
+    xmlns:gCal="http://schemas.google.com/gCal/2005">
+  <title>{{ site.title }} Calendar</title>
+  <link href="{{ site.url }}/calendar.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}</id>
+  <subtitle type="text">The calendar contains information about meetings
+    for {{ site.title }}</subtitle>
+  <author>
+    <name>{{ site.title }} Calendar</name>
+  </author>
+  <gCal:timezone value="America/Chicago" />
+    
+  {% for meeting in site.data.meetings %}
+  <entry>
+      <title>{{ meeting.topic }}</title>
+      <link href="{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}"/>
+      <updated>{{ site.time | date_to_xmlschema }}</updated>
+      <published>{{ meeting.date | date_to_xmlschema }}</published>
+      <id>{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}</id>
+      <content type="html">
+        <p>{{ meeting.topicSummary }}</p>
+        <p>See <a href="{{ site.url }}/meetings/#meeting-id-{{ meeting.id }}">meetings page for location info</a></p>
+      </content>
+      <author>
+        <name>{{ site.title }} Calendar</name>
+      </author>
+    </entry>
+  {% endfor %}
 </feed>
