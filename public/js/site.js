@@ -1,6 +1,11 @@
 var Meetings = function() {
   var api = {};
 
+  archiveMeeting = function(meeting) {
+    $(meeting).prependTo($('.archived'));
+    $(meeting).find('.locations').hide();
+  }
+
   api.init = function() {
     api.addElements();
     api.archivePast();
@@ -15,7 +20,7 @@ var Meetings = function() {
     var diffDate = $.now() - 2*60*60*1000;
     $('.meeting').each(function(index, meeting) {
       var date = (new Date($(meeting).data('meeting-date'))).getTime();
-      if (date < diffDate) $(meeting).prependTo($('.archived'));
+      if (date < diffDate) archiveMeeting(meeting);
     });
   }
 
