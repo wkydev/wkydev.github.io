@@ -10,7 +10,7 @@ title: Meetings
      id="meeting-id-{{ meeting.id }}"
      data-meeting-id="{{ meeting.id }}"
      data-meeting-date="{{ meeting.date }}">
-  <h3>{{ meeting.topic }}</h3>
+  <h3><a href="#meeting-id-{{ meeting.id }}">{{ meeting.topic }}</a></h3>
   <p><em>{{ meeting.date | date: '%B %d, %Y' }} at {{ meeting.time }} - {{ meeting.speaker }}</em></p>
   <p>{{ meeting.topicSummary }}</p>
 
