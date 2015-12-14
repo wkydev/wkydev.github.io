@@ -22,12 +22,14 @@ title: Meetings
     </ul>
   {% endif %}
 
-  <div class="locations">
-  <h4>Locations</h4>
-    <ul>
-      {% for location in meeting.locations %}<li><a href="{{ location.map_url }}">{{ location.name }}</a></li>
-      {% endfor %}</ul>
-  </div>
+  {% if meeting.locations %}
+    <div class="locations">
+    <h4>Locations</h4>
+      <ul>
+        {% for location in meeting.locations %}<li><a href="{{ location.map_url }}">{{ location.name }}</a></li>
+        {% endfor %}</ul>
+    </div>
+  {% endif %}
 </div>
 {% endfor %}
 </div>
