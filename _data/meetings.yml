@@ -100,3 +100,9 @@
   speaker: Stephen Mizell
   topic: 'Canceled'
   topicSummary: "Meeting has been canceled"
+- id: 11
+  date: 2015-2-22 18:00:00 -0500
+  time: '6pm'
+  speaker: Jessica Raes
+  topic: 'Bridging the Generation Gap'
+  topicSummary: "Working with people from different generations can be a tedious task.  During this meeting we will discuss how we can move past our differences and learn from one another."
