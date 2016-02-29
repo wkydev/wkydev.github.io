@@ -53,9 +53,9 @@
 - id: 6
   date: 2015-03-09 18:00:00 -0500
   time: '6pm'
-  speaker: CSI
-  topic: 'TBA'
-  topicSummary: "TBA"
+  speaker: Barkley Hughes
+  topic: 'Xamrin Development'
+  topicSummary: "One codebase, three mobile platforms"
   locations:
     - name: 'Murray State University, Business Building, IPTV Room 102'
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
