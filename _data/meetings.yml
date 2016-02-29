@@ -106,3 +106,8 @@
   speaker: Jessica Raes
   topic: 'Bridging the Generation Gap'
   topicSummary: "Working with people from different generations can be a tedious task.  During this meeting we will discuss how we can move past our differences and learn from one another."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
