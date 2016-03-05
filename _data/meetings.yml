@@ -111,3 +111,14 @@
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
     - name: 'CSI in Paducah'
       map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 12
+  date: 2015-3-14 18:00:00 -0500
+  time: '6pm'
+  speaker: David Willems 
+  topic: 'System Engineering - Conceptualizing, Defining, Developing, Designing and Producing Complex Multidisciplinary Systems'
+  topicSummary: "This talk gives an overview of the system engineering process and describes system engineering activities in all phases of system development, from conceptualization to deployment. Some of the system engineering tools are described and some pitfalls are identified."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
