@@ -101,7 +101,7 @@
   topic: 'Canceled'
   topicSummary: "Meeting has been canceled"
 - id: 11
-  date: 2015-2-22 18:00:00 -0500
+  date: 2016-2-22 18:00:00 -0500
   time: '6pm'
   speaker: Jessica Raes
   topic: 'Bridging the Generation Gap'
@@ -112,7 +112,7 @@
     - name: 'CSI in Paducah'
       map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
 - id: 12
-  date: 2015-3-14 18:00:00 -0500
+  date: 2016-3-14 18:00:00 -0500
   time: '6pm'
   speaker: David Willems 
   topic: 'System Engineering - Conceptualizing, Defining, Developing, Designing and Producing Complex Multidisciplinary Systems'
