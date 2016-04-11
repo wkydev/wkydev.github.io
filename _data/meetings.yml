@@ -122,3 +122,14 @@
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
     - name: 'CSI in Paducah'
       map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 13
+  date: 2016-4-11 18:00:00 -0500
+  time: '6pm'
+  speaker: David Rector 
+  topic: 'Introduction to C# 6'
+  topicSummary: "An introduction to C# 6, with a brief history on .NET, and a look at the new Roslyn compiler."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
