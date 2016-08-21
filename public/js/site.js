@@ -1,27 +1,30 @@
 var Meetings = function() {
   var api = {};
 
-  archiveMeeting = function(meeting) {
-    $(meeting).prependTo($('.archived'));
-    $(meeting).find('.locations').hide();
-  }
-
   api.init = function() {
-    api.addElements();
-    api.archivePast();
-  }
+    var meetingContainer = $('.meetings');
+    var meetingList = $('.meeting');
 
-  api.addElements = function() {
-    $('.meetings').before('<h2>Upcoming Meetings</h2>');
-    $('.meetings').after('<h2>Past Meetings</h2><div class="archived"></div>');
-  }
+    if ($('.meeting').length) {
+      // Build structure for meetings list
+      meetingContainer.before('<h2 class="upcoming-header">Upcoming Meetings</h2>');
+      meetingContainer.after('<h2>Past Meetings</h2><div class="archived"></div>');
 
-  api.archivePast = function() {
-    var diffDate = $.now() - 2*60*60*1000;
-    $('.meeting').each(function(index, meeting) {
-      var date = (new Date($(meeting).data('meeting-date'))).getTime();
-      if (date < diffDate) archiveMeeting(meeting);
-    });
+      // Archive meetings that are in the past
+      var diffDate = $.now() - 2*60*60*1000;
+      meetingList.each(function(index, meeting) {
+        var date = (new Date($(meeting).data('meeting-date'))).getTime();
+        if (date < diffDate) {
+          $(meeting).prependTo($('.archived'));
+          $(meeting).find('.locations').hide();
+        };
+      });
+
+      // If we archived every meeting, it means nothing is upcoming
+      if (!$('.meetings > .meeting').length) {
+        $('.upcoming-header').after('<p>No meetings scheduled.</p>');
+      }
+    }
   }
 
   return api;
