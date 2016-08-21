@@ -1,0 +1,146 @@
+- id: 1
+  date: 2014-09-08 18:00:00 -0500
+  time: '6pm'
+  speaker: Brad Young
+  topic: Building Applications with Redis
+  topicSummary: 'Redis is an open source, advanced key-value cache and store.   I will cover the basics on using Redis for caching,  NoSQL database and pub/sub messaging.'
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, Room 215 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 2
+  date: 2014-10-13 18:00:00 -0500
+  time: '6pm'
+  speaker: Brad Young
+  topic: 'AngularJS, TypeScript with ASP.NET MVC'
+  topicSummary: 'We will look at how to build a web application using AngularJS, TypeScript, ASP.NET MVC and use Redis for data storage and notifications.'
+  video_url: 'https://www.youtube.com/watch?v=G9Mhe7UjnNY&noredirect=1'
+  code_url: 'https://github.com/bradwyoung/angularjs-typescript'
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 3
+  date: 2014-11-10 18:00:00 -0500
+  time: '6pm'
+  speaker: Stephen Mizell
+  topic: 'REST, Hypermedia, and HTTP'
+  topicSummary: 'We will take a look through history at the first conception of the internet, how the web architecture works, and how using hypermedia can provide the means to have a really great, scalable, evolvable API.'
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 4
+  date: 2014-12-8 18:00:00 -0500
+  time: '6pm'
+  speaker: Stephen Mizell
+  topic: 'Fun with Functional Programming'
+  topicSummary: "We will take a look at functional programming and how it can be helpful in common languages like JavaScript."
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 5
+  date: 2015-02-09 18:00:00 -0500
+  time: '6pm'
+  speaker: CSI
+  topic: 'Canceled'
+  topicSummary: "This meeting has been canceled."
+- id: 6
+  date: 2015-03-09 18:00:00 -0500
+  time: '6pm'
+  speaker: Barkley Hughes
+  topic: 'Xamrin Development'
+  topicSummary: "One codebase, three mobile platforms"
+  locations:
+    - name: 'Murray State University, Business Building, IPTV Room 102'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'Murray State University, Paducah Campus, IPTV Room 139 (via video)'
+      map_url: 'https://www.google.com/maps/place/4430+Sunset+Ave,+Paducah,+KY+42001/@37.0581579,-88.6505728,16z/data=!4m2!3m1!1s0x887a1a69be635811:0x22afb96e15b93964'
+- id: 7
+  date: 2015-04-13 18:00:00 -0500
+  time: '6pm'
+  speaker: Barkley Hughes
+  topic: 'Web API 2 and OWIN'
+  topicSummary: "Web API 2 and hosting it in your own process using OWIN"
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 8
+  date: 2015-05-11 18:00:00 -0500
+  time: '6pm'
+  speaker: Carlo Wahlstedt
+  topic: 'The Anatomy of Nuget'
+  topicSummary: "A look into the guts of the package manager for the .NET development platform which allows developers the ability to quickly produce and consume packages comprised of assemblies. We will look into what NuGet is and why it is useful. What a package is and how to create one. How to consume a package and more."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 9
+  date: 2015-11-16 18:00:00 -0500
+  time: '6pm'
+  speaker: Stephen Mizell
+  topic: 'Thinking and Discovering by Writing'
+  topicSummary: "A look at how writing documentation can lead to creating better products."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 10
+  date: 2015-12-14 18:00:00 -0500
+  time: '6pm'
+  speaker: Stephen Mizell
+  topic: 'Canceled'
+  topicSummary: "Meeting has been canceled"
+- id: 11
+  date: 2016-2-22 18:00:00 -0500
+  time: '6pm'
+  speaker: Jessica Raes
+  topic: 'Bridging the Generation Gap'
+  topicSummary: "Working with people from different generations can be a tedious task.  During this meeting we will discuss how we can move past our differences and learn from one another."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 12
+  date: 2016-3-14 18:00:00 -0500
+  time: '6pm'
+  speaker: David Willems
+  topic: 'System Engineering - Conceptualizing, Defining, Developing, Designing and Producing Complex Multidisciplinary Systems'
+  topicSummary: "This talk gives an overview of the system engineering process and describes system engineering activities in all phases of system development, from conceptualization to deployment. Some of the system engineering tools are described and some pitfalls are identified."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 13
+  date: 2016-4-11 18:00:00 -0500
+  time: '6pm'
+  speaker: David Rector
+  topic: 'Introduction to C# 6'
+  topicSummary: "An introduction to C# 6, with a brief history on .NET, and a look at the new Roslyn compiler."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+- id: 14
+  date: 2016-5-09 18:00:00 -0500
+  time: '6pm'
+  speaker: Stephen Mizell
+  topic: 'The Magic of Lodash'
+  topicSummary: "An look into Lodash and how it can do some really great things for your JavaScript code."
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+    - name: 'CSI in Paducah'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'

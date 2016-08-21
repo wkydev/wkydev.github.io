@@ -1,18 +1,13 @@
 ---
 layout: page
-title: Meetings
+title: Archive
 ---
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="/public/js/site.js"></script>
 <div class="meetings">
-{% unless site.data.meetings %}
-<p>No meetings scheduled.</p>
-{% endunless %}
-{% for meeting in site.data.meetings %}
+{% for meeting in site.data.archive %}
 <div class="meeting"
      id="meeting-id-{{ meeting.id }}"
      data-meeting-id="{{ meeting.id }}"
-     data-meeting-date="{{ meeting.date | date: '%Y-%m-%dT%k:%M' }}">
+     data-meeting-date="{{ meeting.date }}">
   <h3><a href="#meeting-id-{{ meeting.id }}">{{ meeting.topic }}</a></h3>
   <p><em>{{ meeting.date | date: '%B %d, %Y' }} at {{ meeting.time }} - {{ meeting.speaker }}</em></p>
   <p>{{ meeting.topicSummary }}</p>
