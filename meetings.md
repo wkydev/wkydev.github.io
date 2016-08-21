@@ -4,6 +4,9 @@ title: Meetings
 ---
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="/public/js/site.js"></script>
+
+<p><a href="/archive/">View Past Meetings</a></p>
+
 <div class="meetings">
 {% unless site.data.meetings %}
 <p>No meetings scheduled.</p>
