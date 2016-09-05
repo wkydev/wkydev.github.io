@@ -8,7 +8,7 @@ var Meetings = function() {
     if ($('.meeting').length) {
       // Build structure for meetings list
       meetingContainer.before('<h2 class="upcoming-header">Upcoming Meetings</h2>');
-      meetingContainer.after('<h2>Past Meetings</h2><div class="archived"></div>');
+      meetingContainer.after('<h2 class="past-header">Past Meetings</h2><div class="archived"></div>');
 
       // Archive meetings that are in the past
       var diffDate = $.now() - 2*60*60*1000;
@@ -23,6 +23,11 @@ var Meetings = function() {
       // If we archived every meeting, it means nothing is upcoming
       if (!$('.meetings > .meeting').length) {
         $('.upcoming-header').after('<p>No meetings scheduled.</p>');
+      }
+
+      // Hide past meetings for the year
+      if (!$('.archived > .meeting').length) {
+        $('.past-header').hide();
       }
     }
   }
