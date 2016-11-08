@@ -25,9 +25,12 @@
   time: '6pm'
   speaker: Jessica Raes
   topic: 'Fake It Until You Make It: Building Self-Confidence'
-  topicSummary: "As a young female developer, Jessica Raes has had to learn how to overcome a lack of confidence and at times \"fake\" confidence in order to move further in her career. In this talk, she will be sharing tips on how to build one of the most valuable developer traits; self-confidence."
+  topicSummary: |
+    As a young female developer, Jessica Raes has had to learn how to overcome a lack of confidence and at times "fake"
+    confidence in order to move further in her career. In this talk, she will be sharing tips on how to build one of the
+    most valuable developer traits; self-confidence.
   locations:
     - name: 'Murray State University, Business Building, Room 551'
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
     - name: 'CSI in Paducah'
-    - map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
+      map_url: 'https://www.google.com/maps/place/Computer+Services+Inc/@37.075908,-88.677185,15z/data=!4m2!3m1!1s0x0:0x593c83ac6bff131d'
