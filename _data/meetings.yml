@@ -56,3 +56,16 @@
   locations:
     - name: 'Murray State University, Business Building, Room 551'
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+- id: 20
+  date: 2017-07-010 18:00:00 -0500
+  time: '6pm'
+  speaker: Andy Hill
+  topic: 'Operating Web Services'
+  topicSummary: |
+    Many applications are headed to a SaaS model instead of packaging software and delivering it to the client.
+    This paradigm shift broadly impacts organization's information technology strategies. How can we embrace this
+    new world? Should we? This presentation will cover some of the key differences, advantages and disadvantages
+    of consuming, developing, and operating SaaS.
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
