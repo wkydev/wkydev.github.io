@@ -69,3 +69,16 @@
   locations:
     - name: 'Murray State University, Business Building, Room 551'
       map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
+- id: 40
+  date: 2018-01-08 18:00:00 -0500
+  time: '6pm'
+  speaker: Luke Thomas
+  topic: 'Approaching GraphQL'
+  topicSummary: |
+    GraphQL is an exciting new query language for APIs. It is statically typed, backend and storage agnostic, 
+    and fun to use! Ever wanted to fetch multiple resources in a single request or only return exactly the 
+    data you need? Come hear Luke give an overview of this new query language and share his experience using 
+    GraphQL in production.
+  locations:
+    - name: 'Murray State University, Business Building, Room 551'
+      map_url: 'https://www.google.com/maps/place/Murray+State+University+College+of+Business/@36.611765,-88.324279,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x181ef7e2227a8ec4'
